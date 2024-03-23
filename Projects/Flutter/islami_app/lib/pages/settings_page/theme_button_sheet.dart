@@ -55,7 +55,6 @@ class _ThemeButtomSheetState extends State<ThemeButtomSheet> {
 
   getSelectedItem(String theme) {
     var provider = Provider.of<SettingProvider>(context);
-
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
@@ -81,7 +80,6 @@ class _ThemeButtomSheetState extends State<ThemeButtomSheet> {
 
   getUnSelectedItem(String theme) {
     var provider = Provider.of<SettingProvider>(context);
-
     return Row(
       children: [
         Text(
